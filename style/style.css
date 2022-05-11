@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@800&family=Square+Peg&display=swap');
+@import url(button.css);
+body{
+    background: #181818;
+   
+}
+*{
+    text-decoration: none;
+
+}
+p , h1 , h2 ,h4{
+    margin: 0px;
+}
+
+.flex{
+    display: flex;
+}
+.section_head{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.section_p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    max-width: 582px;
+    margin-top: 27px;
+}
+/* -------------------------------------header_style */
+header{
+    height: 119px;
+      
+}
+.header_iner{
+    height: 100%;
+    max-width: 1097px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+/* ---------------------------------------navigation  */
+
+.navigation{
+    width: 393px;
+    height: 44px;
+}
+.navigation>ul{
+    justify-content: space-between;
+    color: aliceblue;
+    list-style-type:none;
+    font-family: 'Manrope', sans-serif;
+    padding: 0px 20px;
+}
+/* ------------------------------------------first section */
+
+.title{
+    min-height: 528px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.title>h1{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    max-width: 729px;
+    margin-top: 85px;
+}
+
+/* ----------------------------------buttons */
+
+.buttons_wrap{
+    width: 387px;
+    height: 65px;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+/* -------------------------------------secrion_2 */
+
+.section_2{
+    margin-top: 35px;
+    position: relative;
+}
+.gradient{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 67.1%;
+    bottom: 0%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+}
+.section_2>img{
+    margin: auto;
+    max-width: 100%;
+}
+
+/* ------------------------------------------section_FEATURES */
+
+.FEATURES{
+    min-height: 1112px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.heading{
+    max-width: 602px;
+    height: 149px;
+    margin-bottom: 80px;
+}
+
+.features{
+    width: 1088px;
+    height: 759px;
+    align-items: center;
+}
+
+.content_rows{
+    width: 309px;
+    height: 651px;
+}
+.rows{
+    width: 269px;
+    height: 196px;
+    padding: 10px;
+}
+.rows>p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.rows_hed{
+    margin: 10px 0px;
+    align-items: flex-start;
+}
+.rows_hed>img{
+    margin: 5px 10px 0px 0px;
+}
+.rows_hed>h4{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    width: 153px;
+}
