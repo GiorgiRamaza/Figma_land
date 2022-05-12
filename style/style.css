@@ -8,6 +8,10 @@ body{
     text-decoration: none;
 
 }
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 p , h1 , h2 ,h4{
     margin: 0px;
 }
@@ -131,6 +135,9 @@ header{
     align-items: center;
 }
 
+.features>img{
+    max-width: 752px;
+}
 .content_rows{
     width: 309px;
     height: 651px;
@@ -140,7 +147,7 @@ header{
     height: 196px;
     padding: 10px;
 }
-.rows>p{
+.text_p{
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -155,7 +162,7 @@ header{
 .rows_hed>img{
     margin: 5px 10px 0px 0px;
 }
-.rows_hed>h4{
+.text_h4{
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -163,4 +170,97 @@ header{
     letter-spacing: 0.1px;
     color: #FFFFFF;
     width: 153px;
+}
+
+/* --------------------------------------------contact section */
+
+.contact_section{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.cards{
+    width: 985px;
+    height: 624px;
+    justify-content: space-between;
+}
+.card{
+    width: 476px;
+    height: 624px;
+    flex-direction: column;
+    background: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.head_wrap>h4{
+    color: #000000;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.head_wrap>p {
+    color: #5C5C5C;
+    /* width: 278px; */
+}
+.head_wrap{
+    width: 288px;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+/* ----------------------------------------------GALLERY section */
+
+.GALLERY{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.gallery_wrap{
+    max-width: 1087px;
+    min-height: 916px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.card_gal_t{
+    width: 999px;
+    height: 285px;
+    justify-content: space-between;
+}
+.card_gal_b{
+    width: 1087px;
+    height: 285px;
+    justify-content: space-between;
+
+}
+.card_gal_t>img{
+    border-radius: 12px;
+}
+.card_gal_b>img{
+    border-radius: 12px;
+}
+
+/* ----------------------------------------------------Partners section  */
+
+.partners{
+    height: 484px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.brands{
+    width: 832px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.partners>div:nth-child(1){
+    margin: 0px;
 }

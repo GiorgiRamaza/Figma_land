@@ -14,6 +14,7 @@
     background: #4452FE;
     font-family: 'Manrope', sans-serif;
     cursor: pointer;
+    border: 0px;
 }
 .buttons_wrap>button:nth-child(1){
     width: 178px;
@@ -27,4 +28,14 @@
     background-color: #181818;
     width: 178px;
     height: 65px;
+}
+.card>button{
+    width: 157px;
+    height: 52px;
+    margin-top: 52px;
+    margin-bottom: 57px;
+
+}
+.mg_0{
+    margin-bottom: 0px !important;
 }
