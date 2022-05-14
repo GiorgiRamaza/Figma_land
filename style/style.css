@@ -264,3 +264,64 @@ header{
 .partners>div:nth-child(1){
     margin: 0px;
 }
+
+/* ------------------------------------------------------- footer  */
+
+footer{
+    height: 437px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    width: 1031px;
+    height: 223px;
+}
+.left_block{
+    width: 513px;
+    height: 223px;
+    justify-content: space-between;
+
+}
+.f_list{
+    display: flex;
+    flex-direction: column;
+}
+.f_contact{
+    width: 319px;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.f_list>ul{
+    width: 121px;
+    height: 153px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.f_list>h4{
+    font-size: 20px;
+    line-height: 30px;
+}
+.location , .phone{
+    align-items: center;
+}
+.soc_media{
+    width: 171px;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
